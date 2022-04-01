@@ -5,7 +5,7 @@ pipeline {
     //agent { label 'CROSS-PLATFORM' }
     agent {
         node {
-            label 'Jenkins-Node'
+            label 'JenkinsNode'
         }
     }
     parameters {
